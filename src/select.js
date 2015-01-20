@@ -50,6 +50,7 @@
     }
   };
 
+  console.log('new selector!')
   /**
    * Add querySelectorAll() to jqLite.
    *
