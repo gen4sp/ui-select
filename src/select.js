@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-
+  
   var KEY = {
     TAB: 9,
     ENTER: 13,
@@ -50,7 +50,7 @@
     }
   };
 
-  console.log('new selector!')
+
   /**
    * Add querySelectorAll() to jqLite.
    *
