@@ -82,7 +82,7 @@
 
 .ui-select-bootstrap .ui-select-toggle {
   position: relative;
-  padding: 5px 14px;
+  padding: 5px 14px !important;
 }
 
 .ui-select-bootstrap .ui-select-toggle > .caret {

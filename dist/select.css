@@ -1,7 +1,7 @@
 /*!
  * ui-select
  * http://github.com/angular-ui/ui-select
- * Version: 0.9.6 - 2015-01-20T16:01:55.431Z
+ * Version: 0.9.6 - 2015-01-20T16:04:44.237Z
  * License: MIT
  */
 
@@ -90,7 +90,7 @@
 
 .ui-select-bootstrap .ui-select-toggle {
   position: relative;
-  padding: 5px 14px;
+  padding: 5px 14px !important;
 }
 
 .ui-select-bootstrap .ui-select-toggle > .caret {
