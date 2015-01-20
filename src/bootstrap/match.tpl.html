@@ -4,6 +4,6 @@
     <span ng-hide="$select.isEmpty()" class="ui-select-match-text" ng-class="{'ui-select-allow-clear': $select.allowClear && !$select.isEmpty()}" ng-transclude=""></span>
     <i class="caret pull-right" ng-click="$select.toggle($event)"></i>
   <button aria-label="{{ $select.baseTitle }} clear" type="button" class="ui-select-clear" ng-if="$select.allowClear && !$select.isEmpty()" ng-click="$select.select(undefined)">
-    <i class="glyphicon glyphicon-remove"></i>
+    <i class="glyphicon glyphicon-remove" ng-hide="$select.searchEnabled"></i>
   </button>
 </div>
